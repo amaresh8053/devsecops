@@ -1,6 +1,6 @@
 version: "2.1"
 services: 
-  jenkins: "images:'jenkins' 
+  jenkins: "images:'jenkins:latest' 
   user:\"${UID}:${GID}\""
   ports:
    - '8081:8081'
